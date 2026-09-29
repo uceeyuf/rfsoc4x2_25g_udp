@@ -17,7 +17,7 @@
 //   MM2S 只用 AXI 读通道、S2MM 只用写通道，二者直接拼到 MIG 单个 S_AXI，无需 Interconnect。
 //
 //   ★ 时钟域：clk_wr=125M(DDS/写打包，DDS 保持 125 MSps / 5 MHz)，
-//     ui_clk(MIG AXI/DataMover)，clk=400M(读出 64bit 流 → UDP 发送，64b×400M=25.6Gbps)。
+//     ui_clk=300M(MIG AXI/DataMover，DDR4-2400)，clk=400M(读出 64bit 流 → UDP 发送，64b×400M=25.6Gbps)。
 //     跨域全部经 axis_async_fifo_adapter（读侧 512→64 的变宽在 400M 输出侧完成），
 //     单比特电平信号(trig/calib)用两级 ASYNC_REG 同步。两条命令 FSM 在 ui_clk 域。
 //   ★ 带宽：写 4 Gbps + 读 ≤25.6 Gbps，MM2S/S2MM 512bit@ui_clk 余量充足；读 FIFO 256KB
@@ -78,7 +78,7 @@ module ddr_record_loop #(
     //=========================================================================
     // MIG 输出时钟/复位
     //=========================================================================
-    wire        ui_clk;                 // 250MHz
+    wire        ui_clk;                 // 300MHz (DDR4-2400)
     wire        ui_clk_sync_rst;        // 高有效
     wire        calib_done;
     assign init_calib_complete = calib_done;

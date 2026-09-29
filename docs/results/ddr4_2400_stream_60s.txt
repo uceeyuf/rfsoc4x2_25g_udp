@@ -1,0 +1,78 @@
+[i] RIO UDP receiver: 8 flow(s) on :1237..1244, 4 polling thread(s), 4096 slots x 9216 B per flow
+[i] registered with 192.168.100.1:1237, waiting for stream (set VIO tx_speed_en=1) ...
+   1.0s  payload  25.30 Gbps  wire  25.51 Gbps   0.386 Mpps  lost        0  (0.000%)
+   2.0s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   3.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   4.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   5.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   6.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   7.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   8.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+   9.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  10.1s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  11.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  12.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  13.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  14.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  15.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  16.2s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  17.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  18.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  19.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  20.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  21.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  22.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  23.3s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  24.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  25.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  26.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  27.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  28.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  29.4s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  30.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  31.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  32.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  33.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  34.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  35.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  36.5s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  37.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  38.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  39.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  40.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  41.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  42.6s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  43.7s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  44.7s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  45.7s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  46.7s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  47.7s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  48.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  49.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  50.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  51.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  52.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  53.8s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  54.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  55.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  56.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  57.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  58.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  59.9s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+  60.0s  payload  25.28 Gbps  wire  25.48 Gbps   0.385 Mpps  lost        0  (0.000%)
+
+========== RIO result ==========
+flows          8   threads 4
+time           60.00 s
+received       23122319 pkts, 189.60 GB
+payload rate   25.28 Gbps   wire rate 25.48 Gbps   0.385 Mpps
+lost (by seq)  0   loss 0.0000%   bad completions 0
+  :1237  2890291 pkts  lost 0
+  :1238  2890288 pkts  lost 0
+  :1239  2890290 pkts  lost 0
+  :1240  2890290 pkts  lost 0
+  :1241  2890290 pkts  lost 0
+  :1242  2890290 pkts  lost 0
+  :1243  2890290 pkts  lost 0
+  :1244  2890290 pkts  lost 0
+>>> lossless <<<

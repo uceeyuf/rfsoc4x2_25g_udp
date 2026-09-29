@@ -40,7 +40,7 @@ Setup: RFSoC 4x2 QSFP28 (CMAC, 100GbE link) ↔ Mellanox ConnectX-4 MCX455A (PCI
 
 ## Stream Throughput
 
-DDR4 data, 8200-byte jumbo UDP payload, `tx_delay = 0`, flows rotate source IP and ports, receiver `tests/rio_rx/rio_udp_rx.exe`.
+PL DDR4-2400 data, 8200-byte jumbo UDP payload, `tx_delay = 0`, flows rotate source IP and ports, receiver `tests/rio_rx/rio_udp_rx.exe`.
 
 | Flows | FPGA TX    | PC RX      | Loss |
 | :---: | :--------: | :--------: | :--: |
@@ -49,7 +49,7 @@ DDR4 data, 8200-byte jumbo UDP payload, `tx_delay = 0`, flows rotate source IP a
 | 8     | 25.31 Gbps | 25.31 Gbps | 0    |
 | 16    | 25.33 Gbps | 25.33 Gbps | 0    |
 
-60 s, 8 flows: 23,134,485 packets / 189.7 GB, **25.28 Gbps payload (25.49 Gbps on the wire), zero loss**.
+60 s, 8 flows: 23,122,319 packets / 189.6 GB, **25.28 Gbps payload (25.48 Gbps on the wire), zero loss** (DDR4-2400; 23,134,485 packets at DDR4-2000 before).
 
 | ![25G](img/stream_25g_60s.png)       |
 | :----------------------------------: |
@@ -109,7 +109,7 @@ A single flow is limited by one RSS queue (~0.3 Mpps); this NIC hashes UDP by IP
 
 ## 数据流吞吐
 
-DDR4 数据，UDP 载荷 8200 字节巨帧，`tx_delay = 0`，各 flow 轮换源 IP 和端口，接收程序 `tests/rio_rx/rio_udp_rx.exe`。
+PL DDR4-2400 数据，UDP 载荷 8200 字节巨帧，`tx_delay = 0`，各 flow 轮换源 IP 和端口，接收程序 `tests/rio_rx/rio_udp_rx.exe`。
 
 | flow 数 | FPGA 发送  | PC 接收    | 丢包 |
 | :-----: | :--------: | :--------: | :--: |
@@ -118,7 +118,7 @@ DDR4 数据，UDP 载荷 8200 字节巨帧，`tx_delay = 0`，各 flow 轮换源
 | 8       | 25.31 Gbps | 25.31 Gbps | 0    |
 | 16      | 25.33 Gbps | 25.33 Gbps | 0    |
 
-60 秒、8 flow：23,134,485 个包 / 189.7 GB，**有效载荷 25.28 Gbps（线上 25.49 Gbps），零丢包**。
+60 秒、8 flow：23,122,319 个包 / 189.6 GB，**有效载荷 25.28 Gbps（线上 25.48 Gbps），零丢包**（DDR4-2400；此前 DDR4-2000 为 23,134,485 个包）。
 
 | ![25G](img/stream_25g_60s.png)     |
 | :--------------------------------: |

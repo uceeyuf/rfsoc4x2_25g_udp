@@ -1,0 +1,14 @@
+DDR4-2400 build. Single 4K120 runs (--max-gbps 25 --fps 120 --seconds 10), three in a row:
+3840x2160 @ 120 fps  frames  1200 sent  1200 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 23.93 / RX 23.93 Gbps   latency 13.1 / 22.6 ms
+3840x2160 @ 120 fps  frames  1200 sent  1200 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 23.93 / RX 23.93 Gbps   latency 13.1 / 19.3 ms
+3840x2160 @ 120 fps  frames  1200 sent  1200 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 23.93 / RX 23.93 Gbps   latency 13.0 / 23.4 ms
+
+Sweep (one step lost frames to a host scheduling gap: 0 packets lost, frames incomplete at the deadline):
+FPGA 192.168.100.128 (+0..15) port 1234, 16 flows   payload 8956 B   2779 packets/frame   10 s per step
+3840x2160 @  60 fps  frames   600 sent   600 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 11.97 / RX 11.97 Gbps   latency 20.1 / 24.7 ms
+3840x2160 @  80 fps  frames   800 sent   800 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 15.95 / RX 15.95 Gbps   latency 16.5 / 20.2 ms
+3840x2160 @ 100 fps  frames  1000 sent   998 intact 0 corrupted 2 incomplete   packets lost 0.0003 %   TX 19.94 / RX 19.94 Gbps   latency 14.2 / 21.4 ms
+3840x2160 @ 110 fps  frames  1100 sent  1100 intact 0 corrupted 0 incomplete   packets lost 0.0000 %   TX 21.94 / RX 21.94 Gbps   latency 13.8 / 26.6 ms
+3840x2160 @ 120 fps  frames  1200 sent   337 intact 0 corrupted 863 incomplete   packets lost 0.0000 %   TX 23.72 / RX 23.72 Gbps   latency 64.1 / 136.8 ms
+3840x2160 @ 125 fps  frames  1250 sent   376 intact 0 corrupted 874 incomplete   packets lost 0.0000 %   TX 24.19 / RX 24.19 Gbps   latency 253.6 / 316.6 ms
+Ceiling: 3840x2160 @ 110 fps, 21.94 Gbps each way, all frames intact
