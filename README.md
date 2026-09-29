@@ -102,6 +102,24 @@ third_party/  verilog-ethernet (submodule)
 
 　
 
+## Citation
+
+If this work helps your research, please cite it:
+
+```bibtex
+@misc{yu2026rfsoc4x2_25g,
+    author = {Yijie Yu},
+    title = {{RFSoC 4x2 25G UDP over QSFP28}},
+    year = {2026},
+    howpublished = {\url{https://github.com/uceeyuf/rfsoc4x2_25g_udp}},
+    note = {GitHub repository},
+}
+```
+
+GitHub also offers the citation under **Cite this repository** (from [CITATION.cff](CITATION.cff)).
+
+　
+
 ## License
 
 BSD 3-Clause (Copyright (c) 2026, Yijie Yu). verilog-ethernet and files derived from it remain under the MIT license.
@@ -205,6 +223,24 @@ pc/           数据流的 Python 采集脚本
 docs/         测试报告、图、原始数据
 third_party/  verilog-ethernet（子模块）
 ```
+
+　
+
+## 引用
+
+如果这个项目对你的研究有帮助，请引用：
+
+```bibtex
+@misc{yu2026rfsoc4x2_25g,
+    author = {Yijie Yu},
+    title = {{RFSoC 4x2 25G UDP over QSFP28}},
+    year = {2026},
+    howpublished = {\url{https://github.com/uceeyuf/rfsoc4x2_25g_udp}},
+    note = {GitHub repository},
+}
+```
+
+GitHub 仓库页的 **Cite this repository** 也提供同样的引用（来自 [CITATION.cff](CITATION.cff)）。
 
 　
 
